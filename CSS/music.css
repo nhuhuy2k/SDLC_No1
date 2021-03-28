@@ -9,8 +9,9 @@
 .top{
     width: 100%;
     height: 60px;
-    background-color: black;
+    z-index: 1000;
     position: fixed;
+    top: 0; 
     border-bottom: 2px solid rgba(130,140,150,.1);
 }
 .logo{
@@ -63,7 +64,10 @@
     margin-right: 14px;
     background: orangered;
 }
-
+.main{
+    float: left;
+    width: 100%;
+}
 .left{
     float: left;
     padding: 20px 0 0 20px;
@@ -103,7 +107,7 @@ ul, a{
 }
 .right{
     margin-left:15%;
-    padding: 50px 0px 50px 0;
+    float: left;
     width: 85%;
 }
 .menu-right{
